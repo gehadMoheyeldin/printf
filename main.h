@@ -1,11 +1,11 @@
-#ifndef _PRINTF _H
-#define _PRINTF _H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <limits.h>
-#include <stdlib.h>
+
+
 
 #define OUTPUT_BUF_SIZE 1024
 #define BUF_FLUSH -1
@@ -87,4 +87,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-#endif
+#endif /* MAIN_H */
